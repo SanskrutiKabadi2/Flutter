@@ -1,0 +1,311 @@
+void main(){
+  print("Hello World");
+  
+}
+
+
+
+void main(){
+  print("Hello World");
+  print("Hello Mom");
+  
+}
+
+void main(){
+  int a=10;
+  print(a);
+  
+}
+
+void main(){
+  int a;
+  print(a);
+//error : non-nullable variable a must be assigned before it can be used
+  
+}
+void main(){
+  int a=10;
+  print(a);
+  a=10.6;
+  
+  
+}
+error: a value of type double cannot be assigned to a variable of type int 
+
+void main(){
+  int a=5;
+  int b=4;
+  print(a);
+  print(b);
+  a=30.6;
+  b=2.89;
+  print(a);
+  print(b);
+  
+}
+
+//error 7 and 8 th line as assignment is at this line
+
+
+void main(){
+ num a=5;
+  print(a);
+  a=30.6;
+  print(a);
+  a=2;
+  print(a);
+  
+}
+
+void main(){
+String str1="Addi";
+  print(str1);
+  String str2="sanskruti";
+  print(str2);
+  
+}
+
+void main(){
+  double a=10.5;
+  print(a);
+  a=20;
+  print(a);
+}
+//print 2 <even if data type is double as assigned int >
+
+//bool
+void main(){
+  bool flag=true;
+  print(flag);
+  flag=false;
+  print(flag);
+}
+
+void main(){
+  bool flag=true;
+  print(flag);
+  flag=false;
+  print(flag);
+  flag=0;
+}
+
+void main(){
+ var a="sansk";
+  print(a);
+  a=20;
+  print(a);
+}
+var can store any type of data;but when assign value again same data type is required 
+
+
+
+void main(){
+ dynamic a="sansk";
+  print(a.runtimeType);
+  print(a);
+  a=20;
+  print(a);
+  print(a.runtimeType);
+}
+
+void main(){
+  const x;
+  print(x);
+  
+}
+
+void main(){
+  const x=20;
+  print(x);
+  
+}
+
+void main(){
+  const x=20;
+  print(x);
+  x=30;
+}
+
+void main(){
+  const x=null;
+  print(x.runtimeType);
+ 
+ 
+  
+}
+//final 
+void main(){
+  final a;
+  a=10;
+  print(a);
+ 
+}
+
+void main(){
+  final a;
+  a=10;
+  print(a);
+  a=10.5;
+}
+only one time assign value because if ist time int and then double the memory is small for int and double id more
+*****************************************************************************************************************
+
+operators 
+
+#binary
+
+void main(){
+  int a=10,b=20;
+  print(a+b);
+  
+}
+
+void main(){
+  int a=30,b=40;
+  print(a-b);
+  
+}
+
+void main(){
+  int a=30,b=40;
+  print(a*b);
+  
+}
+void main(){
+  int a=30,b=40;
+  print(a/b);
+  
+}
+void main(){
+  int a=30,b=40;
+  print(a%b);
+  
+}
+
+#unary
+
+void main(){
+  int a=2,b=5;
+  print(++a);
+  print (b++);
+  print(b);
+  
+}
+
+void main(){
+  int a=2,b=5;
+  print(a--);
+  print(a);
+  print (--b);
+  
+}
+
+void main(){
+  int a=2,b=5;
+  print(a<b);
+ 
+  
+}
+
+void main(){
+  int a=2,b=5;
+  print(a>b);
+ 
+  
+}
+
+void main(){
+  int a=5,b=5;
+  print(a==b);
+ 
+  
+}
+
+void main(){
+  int a=5,b=5;
+  print(a>=b);
+ 
+  
+}
+void main(){
+  int a=5,b=5;
+  print(a<=b);
+ 
+  
+}
+void main(){
+  int a=5,b=5;
+  print(a!=b);
+ 
+  
+}
+void main(){
+  int a=5,b=5;
+  print(a!=b);
+ 
+  
+}
+
+void main(){
+  int a=5,b=5;
+  print((a>b)||(b==3));
+ 
+  
+}
+void main(){
+  int a=5,b=5;
+  print(!(a>b));
+ 
+  
+}
+void main(){
+ int a=3,b=4;
+  print(a&b);
+ 
+  
+}
+
+void main(){
+ int a=4,b=7;
+  print(a|b);
+ 
+  
+}
+
+void main(){
+ int a=4,b=7;
+  print(a<<b);
+ 
+  
+}
+
+void main(){
+ int a=4,b=7;
+  print(a>>b);
+ 
+  
+}
+void main(){
+ int a=4,b=7;
+ print(~a);
+ print(~b);
+ 
+  
+}
+void main(){
+  int a=1,b=3;
+ print((a>b)? a:b);
+  
+}
+void main(){
+  double x=9.8;
+  print(x is int);
+}
+
+void main(){
+  double x=9.8;
+  print(x is! int);
+}
+
+
+
